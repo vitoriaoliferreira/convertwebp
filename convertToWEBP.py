@@ -22,7 +22,7 @@ def convert_images_to_webp(input_folder, output_folder):
 
 
             # Define a qualidade da compactação da imagem (0 é o valor mínimo e 100 é o máximo)
-            quality = 40
+            quality = 50
 
             # Define o caminho completo para o arquivo de saída
             output_path = os.path.join(output_folder, os.path.splitext(filename)[0] + ".webp")
